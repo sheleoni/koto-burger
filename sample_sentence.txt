@@ -1,0 +1,18 @@
+
+褒め言葉
+    Thanks a lot for your effort / That’s great! / Nice! / Thanks! I can see that...
+
+指摘
+    instead of A, I want B
+    I think there is a misunderstanding (you did X/ right now it looks like this, but I wanted Y)
+    Logic mistakes: After I click X, it should show Y. Right now, when I click X, it shows Z. This behavior is incorrect.
+    It’s supposed to be...
+    The circled portion / area should look like XX
+    The icon should be black / white/ transparent instead.
+
+フォロー(締切、clarify、thank again)
+    please let me know if you don’t understand,
+    please let me know if you need any help 
+    please let me know how long it will take
+    please let me know your estimate time
+    how long do you think this will take you?
