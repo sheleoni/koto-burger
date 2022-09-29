@@ -37,16 +37,6 @@ body {
     grid-area: follow-up;
 }
 
-/* Burger */
-#hamburger {
-    grid-area: hamburger;
-}
-
-#hamburger-BLT {
-    max-height: 300px;
-    vertical-align: middle;
-}
-
 /* All content boxes */
 #content>* {
     display: flex;
@@ -77,4 +67,20 @@ h2 {
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+/* Burger */
+#hamburger {
+    grid-area: hamburger;
+    display: grid;
+}
+
+#hamburger-BLT {
+    max-height: 300px;
+    vertical-align: middle;
+}
+
+/* Hamburger images size */
+#hamburger>* {
+    width: 100px;
 }
