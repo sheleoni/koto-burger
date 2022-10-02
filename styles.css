@@ -37,16 +37,6 @@ body {
     grid-area: follow-up;
 }
 
-/* Burger */
-#hamburger {
-    grid-area: hamburger;
-}
-
-#hamburger-BLT {
-    max-height: 300px;
-    vertical-align: middle;
-}
-
 /* All content boxes */
 #content>* {
     display: flex;
@@ -77,4 +67,44 @@ h2 {
 ul {
     margin: 0px;
     padding: 0px;
+}
+
+/* Burger */
+#hamburger {
+    grid-area: hamburger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hamburger-BLT {
+    max-height: 300px;
+    vertical-align: middle;
+}
+
+/* Hamburger images size */
+#hamburger>* {
+    width: 60%;
+}
+
+#hamburger>img {
+    margin-bottom: -27px;
+}
+
+#hamburger>img:nth-child(1) {
+    /* Top Bun */
+    z-index: 10;
+    margin-bottom: -15%;
+}
+
+#hamburger>img:nth-child(2) {
+    /* Middle */
+    z-index: 9;
+    margin-top: 6px;
+    margin-bottom: -20%;
+}
+
+#hamburger>img:nth-child(3) {
+    /* Bottom BUn */
+    z-index: 8;
 }
