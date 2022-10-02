@@ -72,7 +72,9 @@ ul {
 /* Burger */
 #hamburger {
     grid-area: hamburger;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #hamburger-BLT {
@@ -82,5 +84,27 @@ ul {
 
 /* Hamburger images size */
 #hamburger>* {
-    width: 100px;
+    width: 60%;
+}
+
+#hamburger>img {
+    margin-bottom: -27px;
+}
+
+#hamburger>img:nth-child(1) {
+    /* Top Bun */
+    z-index: 10;
+    margin-bottom: -15%;
+}
+
+#hamburger>img:nth-child(2) {
+    /* Middle */
+    z-index: 9;
+    margin-top: 6px;
+    margin-bottom: -20%;
+}
+
+#hamburger>img:nth-child(3) {
+    /* Bottom BUn */
+    z-index: 8;
 }
