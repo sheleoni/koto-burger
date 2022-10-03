@@ -42,7 +42,7 @@ body {
     display: flex;
     align-items: center;
     /* width: 70%; */
-    /* justify-content: center; */
+    justify-content: center;
     border-radius: 1rem;
     background-color: white;
     padding: 1rem;
@@ -54,7 +54,7 @@ body {
 
 #content>section>ul {
     justify-content: center;
-    width: 60%;
+    width: 80%;
 }
 
 h2 {
@@ -89,6 +89,10 @@ ul {
 
 #hamburger>img {
     margin-bottom: -27px;
+}
+
+#hamburger>img:hover {
+    opacity: 0.6;
 }
 
 #hamburger>img:nth-child(1) {
